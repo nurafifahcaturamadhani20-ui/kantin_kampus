@@ -37,23 +37,13 @@ Data yang dikirim antarhalaman:
 
 ## Struktur Folder
 ```
-lib/
-  main.dart              data menu dan fungsi rupiah
-  pages/
-    home_page.dart
-    menu_page.dart
-    detail_page.dart
-    cart_page.dart
-    receipt_page.dart
-    about_page.dart
-assets/images/           gambar menu dan banner
+   lib/
+     main.dart         seluruh kode aplikasi (halaman, data menu, fungsi rupiah)
+   assets/images/      gambar menu dan banner
 ```
-
 ## Cara Menjalankan
 ```
 flutter create --platforms=android .
 flutter pub get
 flutter run
 ```
-Setelah `flutter create`, hapus file `test/widget_test.dart` karena isinya
-tidak cocok dengan aplikasi ini.
