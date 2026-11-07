@@ -38,8 +38,7 @@ Data yang dikirim antarhalaman:
 ## Struktur Folder
 ```
 lib/
-  main.dart
-  data.dart              data menu dan fungsi rupiah
+  main.dart              data menu dan fungsi rupiah
   pages/
     home_page.dart
     menu_page.dart
